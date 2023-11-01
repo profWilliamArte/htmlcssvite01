@@ -20,7 +20,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
     base: "https://profWilliamArte.github.io/htmlcssvite01",
     server: {
-        port: 4173, // Puerto en el que se ejecutará el servidor local
+        port: "http://localhost:4173/htmlcssvite01", // Puerto en el que se ejecutará el servidor local
       },
     build: {
         rollupOptions: {
