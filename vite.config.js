@@ -19,6 +19,9 @@ export default {
 import { defineConfig } from 'vite';
 export default defineConfig({
     base: "https://profWilliamArte.github.io/htmlcssvite01",
+    server: {
+        port: 4173, // Puerto en el que se ejecutará el servidor local
+      },
     build: {
         rollupOptions: {
           input: {
