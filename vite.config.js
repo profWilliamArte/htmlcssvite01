@@ -3,11 +3,11 @@ export default {
     build: {
       rollupOptions: {
         input: {
-          main: './src/index.html',
-          accion: './src/accion.html',
-          animacion: './src/animacion.html',
-          aventura: './src/aventura.html',
-          comedia: './src/comedia.html'
+          index: 'index.html',
+          accion: 'accion.html',
+          animacion: 'animacion.html',
+          aventura: 'aventura.html',
+          comedia: 'comedia.html'
         }
       }
     }
